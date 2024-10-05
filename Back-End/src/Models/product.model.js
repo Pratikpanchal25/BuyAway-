@@ -28,4 +28,6 @@ export const Product = sequelize.define("Product", {
     type: DataTypes.STRING,
     allowNull: false
   }
+},{
+  timestamps: true
 });
